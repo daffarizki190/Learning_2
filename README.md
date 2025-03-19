@@ -22,6 +22,35 @@ Fungsi ini mengembalikan true jika string adalah palindrom dan false jika bukan.
 ### Untuk Menjalankan TS
 ```npx jest```
 
+### Penjelasan Kode dan Best Practices
+### 1. Konvensi Penamaan
+* Variabel dan Fungsi: Menggunakan camelCase
+  
+  ```const hitungLuas = (panjang, lebar) => panjang * lebar;```
+
+### 2. Penggunaan ```let``` vs ```const```
+* ```const```: Digunakan untuk variabel yang nilainya tidak berubah
+
+```const PI = 3.14159;```
+
+```const hitungLuasLingkaran = (jariJari) => PI * jariJari * jariJari;```
+
+*```let```: Digunakan hanya jika nilai variabel perlu diubah
+
+```let total = 0;```
+
+```for (let i = 0; i < 10; i++) { total += i;}```
+
+
+### 3. Arrow Functions
+* Menggunakan arrow functions untuk fungsi sederhana
+
+// Arrow function - Lebih ringkas
+```const kuadrat = (x) => x * x;```
+
+// Fungsi tradisional - Hindari jika memungkinkan untuk fungsi sederhana
+```function kuadratTradisional(x) { return x * x;}```
+
 ### Teknologi yang digunakan
 - typescript
 - javascript
