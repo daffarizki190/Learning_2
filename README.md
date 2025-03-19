@@ -2,7 +2,7 @@
 ![image](https://github.com/user-attachments/assets/9fff805f-e32d-4448-8aa8-8b36509e7a95)
 
 
-Hi, kali saya membuat fungsi sederhana yang sudah saya sesuaikan dengan input dan Expectation output
+Repository ini berisi implementasi dari latihan-latihan dalam mata kuliah Pemrograman Web. Fokus utama adalah pada penerapan konsep JavaScript dan TypeScript untuk operasi dasar seperti konversi suhu, manipulasi string, dan algoritma sederhana.
 
 ### Berikut Fungsi yang di buat :
 1. Konversi Fahrenheit ke Celsius
